@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
       <Nav>
         <GiMeal /> 
-        <Logo to={"/"}>GourmetGuru</Logo>
+        <Logo to={"/recipe"}>GourmetGuru</Logo>
       </Nav>
       <Search />
       <Category />
