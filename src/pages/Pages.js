@@ -7,8 +7,8 @@ import Recipe from './Recipe'
 
 function Pages() {
   return (
-        <Routes>
-            <Route path='/recipe' element={<Home />} />
+        <Routes basename='/recipe'>
+            <Route path='/' element={<Home />} />
             <Route path='/cuisine/:type' element={<Cuisine />} />
             <Route path='/searched/:search' element={<Searched />} />
             <Route path='/recipes/:name' element={<Recipe />} />
